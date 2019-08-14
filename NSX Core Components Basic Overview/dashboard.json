@@ -1,0 +1,839 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1565700891660,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "NSX Core Components Basic Overview",
+      "rank": 87,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "fe859dca-3c61-46f3-be91-14b5aafb1092",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "94c17f32-9ae7-4839-ae4f-4759d387f547",
+            "widgetIdReceiver": "ebafdeac-69b3-4cb3-89bc-e2d394653490"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "94c17f32-9ae7-4839-ae4f-4759d387f547",
+            "widgetIdReceiver": "3431e1a4-4a3f-4271-aaf6-1a2b4b753e2f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "94c17f32-9ae7-4839-ae4f-4759d387f547",
+            "widgetIdReceiver": "57c987ad-2b3d-48f2-b547-adede5e3f12d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "94c17f32-9ae7-4839-ae4f-4759d387f547",
+            "widgetIdReceiver": "4d383838-4507-4a51-b57f-93df2cd963cf"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "94c17f32-9ae7-4839-ae4f-4759d387f547",
+            "widgetIdReceiver": "6f95b60a-6d3c-44cb-9c75-f06ceaf66699"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3431e1a4-4a3f-4271-aaf6-1a2b4b753e2f",
+            "widgetIdReceiver": "76358898-c8a0-4abe-abe2-de6aa2383a13"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "57c987ad-2b3d-48f2-b547-adede5e3f12d",
+            "widgetIdReceiver": "b1327b0a-e2cd-4cb5-8c9a-61be78ccdb45"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4d383838-4507-4a51-b57f-93df2cd963cf",
+            "widgetIdReceiver": "aa5a4d58-47a1-4b5f-8c21-b70fa23298cd"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "4d383838-4507-4a51-b57f-93df2cd963cf",
+            "widgetIdReceiver": "3b144b2a-560d-4339-b6a6-94d11741f54f"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": 20,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 8,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel30223-1",
+                        "isStringMetric": false,
+                        "label": "NSX Controllers",
+                        "link": "",
+                        "metricKey": "environment|controllers",
+                        "metricName": "Environment|Controllers",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NSX-vSphere Environment",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel35269-1",
+                        "isStringMetric": false,
+                        "label": "Logical Routers",
+                        "link": "",
+                        "metricKey": "environment|logical_routers",
+                        "metricName": "Environment|Logical Routers",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NSX-vSphere Environment",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel35269-3",
+                        "isStringMetric": false,
+                        "label": "NSX Edges",
+                        "link": "",
+                        "metricKey": "environment|edges",
+                        "metricName": "Environment|NSX Edges",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NSX-vSphere Environment",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel35269-2",
+                        "isStringMetric": false,
+                        "label": "Logical Switches",
+                        "link": "",
+                        "metricKey": "environment|logical_switches",
+                        "metricName": "Environment|Logical Switches",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NSX-vSphere Environment",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel43121-1",
+                        "isStringMetric": false,
+                        "label": "Transport Zones",
+                        "link": "",
+                        "metricKey": "environment|transport_zones",
+                        "metricName": "Environment|Transport Zones",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NSX-vSphere Environment",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "NSX Environment Stats",
+               "valueSize": 12,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 9,
+               "x": 4,
+               "y": 1
+            },
+            "height": 210,
+            "id": "ebafdeac-69b3-4cb3-89bc-e2d394653490",
+            "title": "NSX Environment Stats",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Role",
+                  "metricKey": "config|role",
+                  "metricName": "Configuration|Role",
+                  "resourceKindId": "resourceKind:id:0_::_"
+               }],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "customFilter",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": {
+                  "path": [
+                     "/source/instanceKind/instanceKind:resourceKind:id:0_::_/adapterInstance:resource:id:0_::_",
+                     "/source/kind/kind:resourceKind:id:0_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": ["resource:id:0_::_"],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Select NSX Environment"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "94c17f32-9ae7-4839-ae4f-4759d387f547",
+            "states": [
+               {
+                  "key": "permResGrid_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_94c17f32-9ae7-4839-ae4f-4759d387f547",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A105%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A94%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_94c17f32-9ae7-4839-ae4f-4759d387f547",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Select NSX Environment",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "Logical Routers",
+               "traversalSpecId": "",
+               "viewDefinitionId": "1ac1bb35-dafc-4b6c-be2b-804592ae7b76"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 1,
+               "y": 5
+            },
+            "height": 210,
+            "id": "3431e1a4-4a3f-4271-aaf6-1a2b4b753e2f",
+            "title": "Logical Routers",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "NSX Edges",
+               "traversalSpecId": "",
+               "viewDefinitionId": "14112d3c-eaf3-4b11-b7c7-fe12a261f38c"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 1,
+               "y": 9
+            },
+            "height": 210,
+            "id": "57c987ad-2b3d-48f2-b547-adede5e3f12d",
+            "title": "NSX Edges",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "Logical Switches",
+               "traversalSpecId": "",
+               "viewDefinitionId": "2f9c2ba6-ce30-465c-b58f-c16721b8ea04"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 8,
+               "x": 1,
+               "y": 13
+            },
+            "height": 324,
+            "id": "4d383838-4507-4a51-b57f-93df2cd963cf",
+            "title": "Logical Switches",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 2,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": {
+                  "path": ["/source/adapterKind/adapterKind:adapterKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": ["adapterKind:id:0_::_"],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Alert List",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 19
+            },
+            "height": 324,
+            "id": "6f95b60a-6d3c-44cb-9c75-f06ceaf66699",
+            "states": [
+               {
+                  "key": "permViewMode_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_6f95b60a-6d3c-44cb-9c75-f06ceaf66699",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_6f95b60a-6d3c-44cb-9c75-f06ceaf66699",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_6f95b60a-6d3c-44cb-9c75-f06ceaf66699",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alert List",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel13883-1",
+                        "isStringMetric": false,
+                        "label": "Health",
+                        "link": "",
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NSX-vSphere Logical Router",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel13883-2",
+                        "isStringMetric": false,
+                        "label": "Workload",
+                        "link": "",
+                        "metricKey": "badge|workload",
+                        "metricName": "Badge|Workload",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "NSX-vSphere Logical Router",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "Logical Router Health & Workload",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 5
+            },
+            "height": 210,
+            "id": "76358898-c8a0-4abe-abe2-de6aa2383a13",
+            "title": "Logical Router Health & Workload",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18565-1",
+                        "isStringMetric": false,
+                        "label": "Health",
+                        "link": "",
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NSX-vSphere Edge",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel18565-2",
+                        "isStringMetric": false,
+                        "label": "Workload",
+                        "link": "",
+                        "metricKey": "badge|workload",
+                        "metricName": "Badge|Workload",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "NSX-vSphere Edge",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "NSX Edge Health & Workload",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 9
+            },
+            "height": 210,
+            "id": "b1327b0a-e2cd-4cb5-8c9a-61be78ccdb45",
+            "title": "NSX Edge Health & Workload",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "custom": [{
+                  "lightWeightRelationships": [
+                     {
+                        "id": "extModel7385-5",
+                        "key": "widget.topologyGraph.connectedTo.PNET",
+                        "lineStyle": "double",
+                        "name": "",
+                        "propKeyPrefix": "relation",
+                        "relationship": "connectedTo",
+                        "subType": "PNET",
+                        "type": "connectedTo.PNET"
+                     },
+                     {
+                        "id": "extModel7385-4",
+                        "key": "widget.topologyGraph.connectedTo.LNET",
+                        "lineStyle": "double",
+                        "name": "",
+                        "propKeyPrefix": "relation",
+                        "relationship": "connectedTo",
+                        "subType": "LNET",
+                        "type": "connectedTo.LNET"
+                     },
+                     {
+                        "id": "extModel7385-3",
+                        "key": "widget.topologyGraph.connectedTo.LWSERVICE",
+                        "lineStyle": "solid",
+                        "name": "",
+                        "propKeyPrefix": "relation",
+                        "relationship": "connectedTo",
+                        "subType": "LWSERVICE",
+                        "type": "connectedTo.LWSERVICE"
+                     },
+                     {
+                        "id": "extModel7385-1",
+                        "key": "widget.topologyGraph.parent",
+                        "lineStyle": "solid",
+                        "name": "",
+                        "propKeyPrefix": "",
+                        "relationship": "~child",
+                        "subType": "",
+                        "type": "~child"
+                     },
+                     {
+                        "id": "extModel7385-2",
+                        "key": "widget.topologyGraph.child",
+                        "lineStyle": "solid",
+                        "name": "",
+                        "propKeyPrefix": "",
+                        "relationship": "child",
+                        "subType": "",
+                        "type": "child"
+                     }
+                  ],
+                  "selectedConfigFile": "NSX-vSphere Topology Configuration",
+                  "selectedLayoutType": "force",
+                  "travSpecs": []
+               }],
+               "depth": 1,
+               "filterMode": {"leafExpand": false},
+               "mode": "node",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resInteractionMode": "NSX-vSphere Topology Properties",
+               "resource": {"resourceName": ""},
+               "resources": [
+                  {"resourceName": ""},
+                  {"resourceName": ""}
+               ],
+               "selfProvider": {"selfProvider": false},
+               "title": "Topology Selected Logical Switch",
+               "treeType": {"treeType": false}
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 8,
+               "x": 1,
+               "y": 19
+            },
+            "height": 324,
+            "id": "aa5a4d58-47a1-4b5f-8c21-b70fa23298cd",
+            "states": [
+               {
+                  "key": "permNewlyConfigured_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_aa5a4d58-47a1-4b5f-8c21-b70fa23298cd",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permGraphData_widget_69c8ed21-60b7-4dfc-9ddc-f9a6e15fba73_aa5a4d58-47a1-4b5f-8c21-b70fa23298cd",
+                  "value": "s%3A%7B%22nodesMap%22%3A%7B%7D%2C%22linksMap%22%3A%7B%7D%2C%22relationshipMap%22%3A%7B%7D%2C%22expandedNodesMap%22%3A%7B%7D%2C%22layout%22%3A%7B%22zoom%22%3A0.6446949557512898%2C%22x%22%3A-501.85835038374125%2C%22y%22%3A-1192.7778393308943%7D%2C%22links%22%3A%5B%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%2249967b12-2c21-41c7-a8df-f2f68c5151cf%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22bfd96b70-a2d1-4e8d-aa72-529fdd34b307%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%22dca87b8e-22a3-42dd-9824-3ab00b4823b4%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22sourceMetricGroup%22%3A%5B%7B%22metricGroup%22%3A%22port%22%2C%22instance%22%3A%22vxw-dvs-35-virtualwire-2-sid-5001-workload%2010.0.15.x%252f24%20112%22%2C%22removed%22%3Afalse%2C%22hostKindId%22%3A%22002006VMWAREVirtualMachine%22%2C%22iconSrc%22%3A%22images/resknd/default/NSX_LogicalSwitch_port.png%22%2C%22name%22%3A%22port%3Avxw-dvs-35-virtualwire-2-sid-5001-workload%2010.0.15.x%252f24%20112%22%2C%22hostId%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22properties%22%3A%5B%7B%22attrkey%22%3A%22network%7Csubnet%22%2C%22label%22%3A%22Subnet%22%7D%2C%7B%22attrkey%22%3A%22config%7Ccontrol_plane_mode%22%2C%22label%22%3A%22Control%20Plane%20Mode%22%7D%2C%7B%22attrkey%22%3A%22config%7Cmulticast_address%22%2C%22label%22%3A%22Multicast%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cvxlan%22%2C%22label%22%3A%22VXLAN%20ID%22%7D%5D%2C%22id%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d_port_vxw-dvs-35-virtualwire-2-sid-5001-workload_10_0_15_x_2f24_112_1565775963692%22%7D%5D%2C%22targetMetricGroup%22%3A%5B%5D%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22sourceMetGroupId%22%3A%22port_vxw-dvs-35-virtualwire-2-sid-5001-workload_10_0_15_x_2f24_112%22%2C%22type%22%3A%22relation%7CNSX-NSX-V%7CconnectedTo%7CLNET%22%2C%22targetMetGroupId%22%3A%22%22%2C%22target%22%3A%22dca87b8e-22a3-42dd-9824-3ab00b4823b4%22%2C%22lineStyle%22%3A%22double%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22sourceMetricGroup%22%3A%5B%7B%22metricGroup%22%3A%22relatedObject%22%2C%22instance%22%3A%22s%22%2C%22removed%22%3Afalse%2C%22hostKindId%22%3A%22002003NSXLogicalRouter%22%2C%22iconSrc%22%3A%22images/empty.png%22%2C%22name%22%3A%22relatedObject%3As%22%2C%22hostId%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22properties%22%3A%5B%7B%22attrkey%22%3A%22network%7Csubnet%22%2C%22label%22%3A%22Subnet%22%7D%2C%7B%22attrkey%22%3A%22config%7Ccontrol_plane_mode%22%2C%22label%22%3A%22Control%20Plane%20Mode%22%7D%2C%7B%22attrkey%22%3A%22config%7Cmulticast_address%22%2C%22label%22%3A%22Multicast%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cvxlan%22%2C%22label%22%3A%22VXLAN%20ID%22%7D%5D%2C%22id%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d_relatedObject_s_1565775963692%22%7D%5D%2C%22targetMetricGroup%22%3A%5B%7B%22metricGroup%22%3A%22interface%22%2C%22instance%22%3A%22VI-Workload-10.0.15.0_24%22%2C%22removed%22%3Afalse%2C%22hostKindId%22%3A%22002003NSXLogicalRouter%22%2C%22iconSrc%22%3A%22images/resknd/default/NSX_LogicalRouter_interface.png%22%2C%22name%22%3A%22interface%3AVI-Workload-10.0.15.0_24%22%2C%22hostId%22%3A%22bfd96b70-a2d1-4e8d-aa72-529fdd34b307%22%2C%22properties%22%3A%5B%7B%22attrkey%22%3A%22config%7Cospf%7Cenabled%22%2C%22label%22%3A%22OSPF%20Enabled%22%7D%2C%7B%22attrkey%22%3A%22config%7Cbgp%7Clocal_as%22%2C%22label%22%3A%22BGP%20Local%20AS%22%7D%2C%7B%22attrkey%22%3A%22config%7Cstandby_vm%22%2C%22label%22%3A%22Standby%20VM%22%7D%2C%7B%22attrkey%22%3A%22interface%7Csubnet_mask%22%2C%22label%22%3A%22Subnet%20Mask%22%7D%2C%7B%22attrkey%22%3A%22interface%7Ctype%22%2C%22label%22%3A%22Interface%20Type%22%7D%2C%7B%22attrkey%22%3A%22config%7Csize%22%2C%22label%22%3A%22Appliance%20Size%22%7D%2C%7B%22attrkey%22%3A%22interface%7Cip_address%22%2C%22label%22%3A%22IP%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cbgp%7Cenabled%22%2C%22label%22%3A%22BGP%20Enabled%22%7D%2C%7B%22attrkey%22%3A%22config%7Cactive_vm%22%2C%22label%22%3A%22Active%20VM%22%7D%2C%7B%22attrkey%22%3A%22network%7Cdefault_gateway%22%2C%22label%22%3A%22Default%20Gateway%22%7D%2C%7B%22attrkey%22%3A%22config%7Cospf%7Cprotocol_address%22%2C%22label%22%3A%22OSPF%20Protocol%20Address%22%7D%2C%7B%22attrkey%22%3A%22network%7Cmgmt_ip%22%2C%22label%22%3A%22Management%20IP%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cospf%7Cforwarding_address%22%2C%22label%22%3A%22OSPF%20Forwarding%20Address%22%7D%5D%2C%22id%22%3A%22bfd96b70-a2d1-4e8d-aa72-529fdd34b307_interface_VI-Workload-10_0_15_0_24_1565775963692%22%7D%5D%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22sourceMetGroupId%22%3A%22relatedObjects%22%2C%22type%22%3A%22relation%7CNSX-NSX-V%7CconnectedTo%7CLNET%22%2C%22targetMetGroupId%22%3A%22interface_VI-Workload-10_0_15_0_24%22%2C%22target%22%3A%22bfd96b70-a2d1-4e8d-aa72-529fdd34b307%22%2C%22lineStyle%22%3A%22double%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%220584dbd1-2f06-4621-8012-9f396fac9f0f%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%22ea3b4cfc-1a22-413e-af94-10abce9f4dd2%22%2C%22lineStyle%22%3A%22solid%22%7D%5D%2C%22nodes%22%3A%5B%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_DistributedVirtualPortgroup.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A1%2C%22index%22%3A0%2C%22resknd%22%3A%22vSphere%20Distributed%20Port%20Group%22%2C%22uuid%22%3A%22ea3b4cfc-1a22-413e-af94-10abce9f4dd2%22%2C%22resKndId%22%3A%22002006VMWAREDistributedVirtualPortgroup%22%2C%22reskndKey%22%3A%22DistributedVirtualPortgroup%22%2C%22root%22%3Afalse%2C%22name%22%3A%22vxw-dvs-35-virtualwire-2-sid-5001-workload%2010.0.15.x/24%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A1%2C%22x%22%3A1577.4754040343214%2C%22y%22%3A2230.5263858691947%2C%22px%22%3A1578.5040437798245%2C%22py%22%3A2231.775941567591%2C%22x0%22%3A1577.4754040343214%2C%22y0%22%3A2230.5263858691947%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_ea3b4cfc-1a22-413e-af94-10abce9f4dd2_1565775963692%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_VirtualMachine.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A1%2C%22index%22%3A1%2C%22resknd%22%3A%22Virtual%20Machine%22%2C%22uuid%22%3A%22dca87b8e-22a3-42dd-9824-3ab00b4823b4%22%2C%22resKndId%22%3A%22002006VMWAREVirtualMachine%22%2C%22reskndKey%22%3A%22VirtualMachine%22%2C%22root%22%3Afalse%2C%22name%22%3A%22vm-prod02%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%7B%22attrkey%22%3A%22net%7CMAC%20Address%22%2C%22label%22%3A%22MAC%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Chardware%7CnumCpu%22%2C%22label%22%3A%22Provisioned%20vCPUs%22%7D%2C%7B%22attrkey%22%3A%22summary%7Cruntime%7CpowerState%22%2C%22label%22%3A%22Power%20State%22%7D%2C%7B%22attrkey%22%3A%22config%7Chardware%7CdiskSpace%22%2C%22label%22%3A%22Provisioned%20Disk%20Space%22%7D%2C%7B%22attrkey%22%3A%22net%7Cip_address%22%2C%22label%22%3A%22IPv4%20Address%22%7D%2C%7B%22attrkey%22%3A%22summary%7Cguest%7CtoolsRunningStatus%22%2C%22label%22%3A%22VMware%20Tools%20Status%22%7D%2C%7B%22attrkey%22%3A%22config%7Chardware%7CmemoryKB%22%2C%22label%22%3A%22Provisioned%20vRAM%22%7D%2C%7B%22attrkey%22%3A%22net%7Csubnet_mask%22%2C%22label%22%3A%22Subnet%20Mask%22%7D%2C%7B%22attrkey%22%3A%22net%7Cdefault_gateway%22%2C%22label%22%3A%22Default%20Gateway%22%7D%2C%7B%22attrkey%22%3A%22config%7CguestFullName%22%2C%22label%22%3A%22Guest%20Full%20Name%22%7D%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A2%2C%22x%22%3A1672.7510210124651%2C%22y%22%3A1894.2470099827256%2C%22px%22%3A1673.5899072521286%2C%22py%22%3A1896.0352448138008%2C%22x0%22%3A1672.7510210124651%2C%22y0%22%3A1894.2470099827256%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_dca87b8e-22a3-42dd-9824-3ab00b4823b4_1565775963692%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/NSX_LogicalSwitch.png%22%2C%22adapterkndKey%22%3A%22NSX%22%2C%22degree%22%3A0%2C%22index%22%3A2%2C%22resknd%22%3A%22NSX-vSphere%20Logical%20Switch%22%2C%22uuid%22%3A%2258baae5c-c1c7-43d6-a3b7-e31c8fd6e03d%22%2C%22resKndId%22%3A%22002003NSXLogicalSwitch%22%2C%22reskndKey%22%3A%22LogicalSwitch%22%2C%22root%22%3Afalse%2C%22name%22%3A%22workload%2010.0.15.x/24%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%7B%22attrkey%22%3A%22network%7Csubnet%22%2C%22label%22%3A%22Subnet%22%7D%2C%7B%22attrkey%22%3A%22config%7Ccontrol_plane_mode%22%2C%22label%22%3A%22Control%20Plane%20Mode%22%7D%2C%7B%22attrkey%22%3A%22config%7Cmulticast_address%22%2C%22label%22%3A%22Multicast%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cvxlan%22%2C%22label%22%3A%22VXLAN%20ID%22%7D%5D%2C%22notInState%22%3Afalse%2C%22x%22%3A1682.094463795475%2C%22y%22%3A2083.3299444390345%2C%22radius%22%3A33%2C%22weight%22%3A7%2C%22px%22%3A1682.9597609288303%2C%22py%22%3A2084.8576394505703%2C%22x0%22%3A1683.5273785283005%2C%22y0%22%3A2085.8428018184745%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_58baae5c-c1c7-43d6-a3b7-e31c8fd6e03d_1565775963692%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/NSX_NSXAdapter%20Instance.png%22%2C%22adapterkndKey%22%3A%22NSX%22%2C%22degree%22%3A1%2C%22index%22%3A3%2C%22resknd%22%3A%22NSX-vSphere%20Environment%22%2C%22uuid%22%3A%2249967b12-2c21-41c7-a8df-f2f68c5151cf%22%2C%22resKndId%22%3A%22002003NSXNSXAdapter%20Instance%22%2C%22reskndKey%22%3A%22NSXAdapter%20Instance%22%2C%22root%22%3Afalse%2C%22name%22%3A%22NSX-V%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A1%2C%22x%22%3A1857.843679013314%2C%22y%22%3A2042.0210108757876%2C%22px%22%3A1858.3953888888366%2C%22py%22%3A2043.5717293012715%2C%22x0%22%3A1857.843679013314%2C%22y0%22%3A2042.0210108757876%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_49967b12-2c21-41c7-a8df-f2f68c5151cf_1565775963692%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/NSX_TransportZone.png%22%2C%22adapterkndKey%22%3A%22NSX%22%2C%22degree%22%3A1%2C%22index%22%3A4%2C%22resknd%22%3A%22NSX-vSphere%20Transport%20Zone%22%2C%22uuid%22%3A%220584dbd1-2f06-4621-8012-9f396fac9f0f%22%2C%22resKndId%22%3A%22002003NSXTransportZone%22%2C%22reskndKey%22%3A%22TransportZone%22%2C%22root%22%3Afalse%2C%22name%22%3A%22Global%20-%20TZ%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A1%2C%22x%22%3A1761.440738380601%2C%22y%22%3A2245.006221108574%2C%22px%22%3A1762.1532497414264%2C%22py%22%3A2246.2792890125347%2C%22x0%22%3A1762.8445010113523%2C%22y0%22%3A2247.532699355641%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_0584dbd1-2f06-4621-8012-9f396fac9f0f_1565775963692%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/NSX_LogicalRouter.png%22%2C%22adapterkndKey%22%3A%22NSX%22%2C%22degree%22%3A1%2C%22index%22%3A5%2C%22resknd%22%3A%22NSX-vSphere%20Logical%20Router%22%2C%22uuid%22%3A%22bfd96b70-a2d1-4e8d-aa72-529fdd34b307%22%2C%22resKndId%22%3A%22002003NSXLogicalRouter%22%2C%22reskndKey%22%3A%22LogicalRouter%22%2C%22root%22%3Afalse%2C%22name%22%3A%22DLR-01%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%7B%22attrkey%22%3A%22config%7Cospf%7Cenabled%22%2C%22label%22%3A%22OSPF%20Enabled%22%7D%2C%7B%22attrkey%22%3A%22config%7Cbgp%7Clocal_as%22%2C%22label%22%3A%22BGP%20Local%20AS%22%7D%2C%7B%22attrkey%22%3A%22config%7Cstandby_vm%22%2C%22label%22%3A%22Standby%20VM%22%7D%2C%7B%22attrkey%22%3A%22interface%7Csubnet_mask%22%2C%22label%22%3A%22Subnet%20Mask%22%7D%2C%7B%22attrkey%22%3A%22interface%7Ctype%22%2C%22label%22%3A%22Interface%20Type%22%7D%2C%7B%22attrkey%22%3A%22config%7Csize%22%2C%22label%22%3A%22Appliance%20Size%22%7D%2C%7B%22attrkey%22%3A%22interface%7Cip_address%22%2C%22label%22%3A%22IP%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cbgp%7Cenabled%22%2C%22label%22%3A%22BGP%20Enabled%22%7D%2C%7B%22attrkey%22%3A%22config%7Cactive_vm%22%2C%22label%22%3A%22Active%20VM%22%7D%2C%7B%22attrkey%22%3A%22network%7Cdefault_gateway%22%2C%22label%22%3A%22Default%20Gateway%22%7D%2C%7B%22attrkey%22%3A%22config%7Cospf%7Cprotocol_address%22%2C%22label%22%3A%22OSPF%20Protocol%20Address%22%7D%2C%7B%22attrkey%22%3A%22network%7Cmgmt_ip%22%2C%22label%22%3A%22Management%20IP%20Address%22%7D%2C%7B%22attrkey%22%3A%22config%7Cospf%7Cforwarding_address%22%2C%22label%22%3A%22OSPF%20Forwarding%20Address%22%7D%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A2%2C%22x%22%3A1489.0363942967147%2C%22y%22%3A2002.65955562087%2C%22px%22%3A1490.1457714233768%2C%22py%22%3A2004.2872554475487%2C%22x0%22%3A1489.0363942967147%2C%22y0%22%3A2002.65955562087%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23b08b00%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23fcc700%22%2C%22riskState%22%3A1%2C%22tooltipId%22%3A%22tooltip_bfd96b70-a2d1-4e8d-aa72-529fdd34b307_1565775963692%22%2C%22fixed%22%3Atrue%7D%5D%2C%22removedNodesMap%22%3A%7B%7D%7D"
+               }
+            ],
+            "title": "Topology Selected Logical Switch",
+            "type": "TopologyGraph"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10393-1",
+                        "isStringMetric": false,
+                        "label": "Throughput",
+                        "link": "",
+                        "metricKey": "port|utilization",
+                        "metricName": "Ports|Throughput",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NSX-vSphere Logical Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10393-2",
+                        "isStringMetric": false,
+                        "label": "Egress Traffic",
+                        "link": "",
+                        "metricKey": "port|tx_traffic",
+                        "metricName": "Ports|Egress Traffic",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NSX-vSphere Logical Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10393-3",
+                        "isStringMetric": false,
+                        "label": "Ingress Traffic",
+                        "link": "",
+                        "metricKey": "port|rx_traffic",
+                        "metricName": "Ports|Ingress Traffic",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NSX-vSphere Logical Switch",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10393-4",
+                        "isStringMetric": false,
+                        "label": "Dropped Packets %",
+                        "link": "",
+                        "metricKey": "port|dropped_packet_pct",
+                        "metricName": "Ports|Dropped Packets (%)",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "NSX-vSphere Logical Switch",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "Logical Switch Traffic",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 13
+            },
+            "height": 324,
+            "id": "3b144b2a-560d-4339-b6a6-94d11741f54f",
+            "title": "Logical Switch Traffic",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {
+      "adapterKind": [{
+         "adapterKindKey": "NSX",
+         "internalId": "adapterKind:id:0_::_"
+      }],
+      "resource": [{
+         "adapterKindKey": "NSX",
+         "identifiers": [
+            {
+               "key": "ConfigureLogInsightServer",
+               "value": "false"
+            },
+            {
+               "key": "ManagerHost",
+               "value": "vm-nsx01.itq.lab"
+            },
+            {
+               "key": "VCHost",
+               "value": "vm-vcsa01.itq.lab"
+            }
+         ],
+         "internalId": "resource:id:0_::_",
+         "name": "NSX-V",
+         "resourceKindKey": "NSXAdapter Instance"
+      }],
+      "resourceKind": [
+         {
+            "adapterKindKey": "NSX",
+            "internalId": "resourceKind:id:2_::_",
+            "resourceKindKey": "EdgeServicesGateway"
+         },
+         {
+            "adapterKindKey": "NSX",
+            "internalId": "resourceKind:id:3_::_",
+            "resourceKindKey": "LogicalSwitch"
+         },
+         {
+            "adapterKindKey": "NSX",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "NSXAdapter Instance"
+         },
+         {
+            "adapterKindKey": "NSX",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "LogicalRouter"
+         }
+      ]
+   },
+   "uuid": "932bfd64-330c-4662-a729-a5b38cea6997"
+}

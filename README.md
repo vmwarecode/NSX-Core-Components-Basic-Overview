@@ -1,1 +1,0 @@
-# NSX-Core-Components-Basic-Overview
